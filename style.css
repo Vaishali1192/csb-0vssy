@@ -1,0 +1,39 @@
+body {
+  background: #f1f5f8;
+  margin: 0;
+  padding: 0;
+}
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 7vw;
+  font-family: monospace;
+}
+span#value {
+  text-align: center;
+  display: grid;
+  margin: 0 0 30px;
+  font-size: 4vw;
+}
+.btn {
+  text-transform: uppercase;
+  margin: 10px;
+  background: transparent;
+  color: #000;
+  padding: 10px 12px;
+  display: inline-block;
+  transition: var(--transition);
+  font-size: 14px;
+  border: 2px solid #000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  color: #fff;
+  background: #000;
+}
